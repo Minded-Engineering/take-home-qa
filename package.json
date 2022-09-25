@@ -1,0 +1,25 @@
+{
+  "name": "take-home-qa",
+  "version": "1.0.0",
+  "description": "Take home test Adrian",
+  "main": "index.js",
+  "scripts": {
+    "test:desktop": "cypress open",
+    "test:iphone12pro": "cypress open --config viewportWidth=390,viewportHeight=844",
+    "test:headlees": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ataramasco/take-home-qa.git"
+  },
+  "author": "Adrian Taramasco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ataramasco/take-home-qa/issues"
+  },
+  "homepage": "https://github.com/ataramasco/take-home-qa#readme",
+  "devDependencies": {
+    "cypress": "^10.8.0",
+    "prettier": "^2.7.1"
+  }
+}
